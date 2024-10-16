@@ -6,8 +6,8 @@ function Work() {
       url: "https://www.keizerworks.com/_next/image?url=%2FImages%2F19%20(2).png&w=1080&q=75",
       top: "50%",
       left: "50%",
-      isActive: true,
-    },
+      isActive: false,
+    }, 
     {
       url: "https://www.keizerworks.com/_next/image?url=%2FImages%2F19%20(2).png&w=1080&q=75",
       top: "53%",
@@ -41,7 +41,7 @@ function Work() {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full mt-10">
       <div className="relative max-w-screen-xl mx-auto">
         <h1 className="text-[30vw] leading-none font-medium tracking-tight select-none text-center">
           Work
