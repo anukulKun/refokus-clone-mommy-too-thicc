@@ -12,7 +12,7 @@ function Navbar() {
   ];
 
   return (
-    <nav className="max-w-screen-lg mx-auto flex items-center py-6 font-regular justify-between text-white border-b-[1px] border-zinc-700">
+    <nav className="max-w-screen-xl mx-auto flex items-center py-6 font-regular justify-between text-white border-b-[1px] border-zinc-700">
       <div className="flex items-center">
         <img
           src="https://www.keizerworks.com/_next/static/media/meaw3.9837850e.svg"

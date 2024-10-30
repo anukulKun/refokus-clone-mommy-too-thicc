@@ -6,7 +6,7 @@ function Work() {
       url: "https://www.keizerworks.com/_next/image?url=%2FImages%2F19%20(2).png&w=1080&q=75",
       top: "50%",
       left: "50%",
-      isActive: false,
+      isActive: true,
     }, 
     {
       url: "https://www.keizerworks.com/_next/image?url=%2FImages%2F19%20(2).png&w=1080&q=75",
@@ -50,7 +50,7 @@ function Work() {
           {image.map(
             (ele, index) =>
               ele.isActive && (
-                <img className="rounded-lg" src={ele.url} alt="" />
+                <img className="rounded-lg" width={300} height={300} src={ele.url} alt="" />
               )
           )}
         </div>
