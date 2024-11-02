@@ -31,7 +31,7 @@ function Stripes() {
   return (
     <div className="flex justify-between items-center mt-24">
       {data.map((ele, index) => (
-        <Stripe val={ele} />
+        <Stripe key={index} val={ele} />
       ))}
     </div>
   );

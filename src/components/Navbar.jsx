@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 import Button from "./Button";
 
-function Navbar() {
+function  Navbar() {
   const links = [
     { name: "Home", href: "#" },
     { name: "Work", href: "#" },
@@ -26,7 +26,7 @@ function Navbar() {
               href={link.href}
             >
               {link.name.length === 0 ? (
-                <span className="w-[2px] h-4 bg-zinc-700"></span>
+                <span key={index} className="w-[2px] h-4 bg-zinc-700"></span>
               ) : (
                 <>
                   {index === 1 && (
